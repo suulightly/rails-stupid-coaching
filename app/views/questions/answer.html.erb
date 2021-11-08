@@ -1,0 +1,13 @@
+<h1>Stupid Coaching</h1>
+
+<div class="sentence question">
+    <%= @question %>
+    <em>- You</em>
+</div>
+<div class="sentence answer">
+    <strong><%= @answer %></strong>
+    <em>- Your Coach</em>
+</div>
+<div class="backlink">
+    <%= link_to "Ask a new question", ask_path %>
+</div>
